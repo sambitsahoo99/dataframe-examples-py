@@ -1,5 +1,5 @@
 s3_conf:
-  s3_bucket: sambite-12321
+  s3_bucket: sambit-990
 
 sftp_conf:
     filetype: csv
