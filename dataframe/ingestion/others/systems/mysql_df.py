@@ -22,7 +22,7 @@ if __name__ == '__main__':
     app_secrets_path = os.path.abspath(current_dir + "/../../../../" + ".secrets")
 
     conf = open(app_config_path)
-    app_conf = yaml.load(conf, Loader=yaml.FullLoader)
+        app_conf = yaml.load(conf, Loader=yaml.FullLoader)
     secret = open(app_secrets_path)
     app_secret = yaml.load(secret, Loader=yaml.FullLoader)
 
